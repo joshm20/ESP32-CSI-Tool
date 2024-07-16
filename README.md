@@ -62,9 +62,9 @@ The following configurations are important for this project:
 
 1. `Serial flasher config > 'idf.py monitor' baud rate > Custom Baud Rate`
 2. `Serial flasher config > Custom baud rate value > 921600` This allows more data to be transmitted on the Serial port
-3. `Component config > Common ESP32-related > Channel for console output > Custom UART`
+3. `Component config > Common ESP32-related > Channel for console output > Custom UART` <br/>
    For v4.4, this is `Component config > ESP System Settings > Channel for console output > Custom UART`
-5. `Component config > Common ESP32-related > UART console baud rate > 921600`
+5. `Component config > Common ESP32-related > UART console baud rate > 921600` <br/>
    For v4.4, this is `Component config > ESP System Settings > UART console baud rate > 921600`
 7. `Component config > Wi-Fi > WiFi CSI(Channel State Information)` (Press space to select)
 8. `Component config > FreeRTOS > Tick rate (Hz) > 1000`
